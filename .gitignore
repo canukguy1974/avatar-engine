@@ -1,0 +1,47 @@
+# .gitignore for avatar-engine
+
+# Python virtual environments
+.venv/
+venv/
+
+# Node.js dependencies
+node_modules/
+
+# Ignore environment variable files except examples
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VS Code settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Log files
+*.log
+
+# Test and coverage outputs
+.coverage
+coverage/
+*.cover
+*.pyc
+
+# Build outputs
+build/
+dist/
+
+# Next.js build outputs
+.next/
+
+# Misc
+*.swp
+*.swo
+
+# Ignore node_modules in old frontend
+frontend_old_1755782182/node_modules/

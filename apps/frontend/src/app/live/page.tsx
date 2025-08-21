@@ -1,4 +1,4 @@
-import Player from "@/components/Player";
+import Player from "@/app/components/Player";
 export default function LivePage() {
   return (
     <div className="p-6">
